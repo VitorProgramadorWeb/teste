@@ -1,0 +1,63 @@
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+/* calculadora */
+
+.calculadora {
+    width: 60vw;
+    height: 15vw;
+
+    margin: auto;
+    margin-bottom: 20px;
+
+    background-color: rgb(110, 110, 110);
+    border-radius: 20px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.calculadora form {
+    display: flex;
+    align-items: center;
+
+    width: 100%;
+}
+
+.num {
+    border: 0;
+    border-radius: 10px;
+
+    width: 10vw;
+    height: 5vw;
+    
+    font-size: 2em;
+    padding: 10px;
+}
+
+.operadores {
+    width: 5vw;
+    height: 5vw;
+    
+    background-color: rgb(172, 172, 172);
+
+    font-size: 2em;
+}
+
+.enviar {
+    width: 10vw;
+    height: 10vw;
+}
+
+/* form-user */
+
+.form-user {
+    border: 1px solid red;
+
+    width: fit-content;
+
+    padding: 5px;
+}
